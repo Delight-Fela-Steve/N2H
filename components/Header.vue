@@ -33,26 +33,33 @@ export default {
 };
 </script>
 <style scoped>
-li{
-    margin-right: 1em;
-}
-li a {
-    padding: 0.5em;
-    color: black;
-    text-decoration: none;
-    background: black;
-    color: white;
-    border-radius: 5px;
-    display:block;
-    text-align: center;
-}
-#links{
-    margin-top: 1em;
-}
-#links.show ul li a{
-    
-    border-radius: 0;
-    margin-bottom: 0.5em
-}
+    li {
+        margin-right: 1em;
+    }
+    li a {
+        padding: 0.5em;
+        color: black;
+        text-decoration: none;
+        background: #ffffff;
+        border-radius: 2px;
+        display:block;
+        text-align: center;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
+    li a:hover{
+        text-decoration: none;
+        box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+        
+    }
+    #links{
+        margin-top: 1em;
+    }
+    #links.show ul li a{
+        
+        border-radius: 0;
+        margin-bottom: 0.5em
+    }
+
 
 </style>

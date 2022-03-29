@@ -36,6 +36,12 @@
     </div>
 </template>
 
+
+<script>
+    export default{
+        name:"CompanyRegister"
+    }
+</script>
 <style scoped>
 .card-title{
     text-align: center;
