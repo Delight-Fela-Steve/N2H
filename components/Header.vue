@@ -15,7 +15,7 @@
               <nuxt-link to="/products">Products</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/signin">SignIn</nuxt-link>
+              <nuxt-link to="/signin">Sign-In</nuxt-link>
             </li>
             <li>
               <nuxt-link to="/register">Register</nuxt-link>

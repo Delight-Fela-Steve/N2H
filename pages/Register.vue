@@ -1,5 +1,5 @@
 <template>
     <div>
-        <Header />
+        <h1>Register</h1>
     </div>
 </template>

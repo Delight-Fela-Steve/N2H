@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header />
     <h1>Products</h1>
     <Card />
   </div>
