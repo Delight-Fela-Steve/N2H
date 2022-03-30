@@ -2,28 +2,41 @@
     <div>
         <div class="choice-container">
             <div class="choices">
-                <button class="charity">Charity</button>
+                <button @click="onClick" class="charity">Charity</button>
                 <button class="user">Individual</button>
                 <button class="company">Company</button>
             </div>    
         </div>
-        <UserRegister />
-        <CompanyRegister />
+        <template v-if="individual"><UserRegister /></template>
+        <template v-if="charity"><CharityRegister /></template>
+        <template v-if="company"><CompanyRegister /></template>
     </div>
 </template>
 
 <script>
 import UserRegister from "@/components/UserRegister";
 import CompanyRegister from "@/components/CompanyRegister";
+import CharityRegister from "@/components/CharityRegister";
 
 export default {
-    data:()=>{
-        
+    data(){
+      return{
+        "individual":false,
+        "charity":false,
+        "company":false,
+        "hide":false
+        }
+    },
+    methods:{
+        onClick(){
+            console.log('clicked')
+        }
     },
 
     components:{
         UserRegister,
-        CompanyRegister
+        CompanyRegister,
+        CharityRegister
     }
 }
 </script>

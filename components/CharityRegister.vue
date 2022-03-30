@@ -5,24 +5,24 @@
             <div class="card-body">
                 <form action="">
                     <div class="row mb-3">
-                        <label class="mb-2" for="name">Company Name</label>
-                        <div class="col-sm-9"><input type="text" class="form-control"  id="name" placeholder="Company name" aria-label="Company names"/></div>
+                        <label class="mb-2" for="name">Charity Name</label>
+                        <div class="col-sm-9"><input type="text" class="form-control"  id="name" placeholder="Charity name" aria-label="Charity name"/>    </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="mb-2" for="email" >Company Email</label>
-                        <div class="col-sm-9"><input type="email" class="form-control" id="email" placeholder="johndoe@example.com" aria-label="Company Email"></div>
+                        <label class="mb-2" for="email">Charity Email</label>
+                        <div class="col-sm-9"><input type="email" class="form-control" id="email" placeholder="johndoe@example.com" aria-label="Charity Email"></div>
                     </div>
                      <div class="row mb-3">
-                        <label class="mb-2" for="address">Company Address</label>
-                        <div class="col-sm-9"><input type="text" class="form-control"  id="address" placeholder="Address" aria-label="Company Address"/></div>
+                        <label class="mb-2" for="address">Charity Address</label>
+                        <div class="col-sm-9"><input type="text" class="form-control"  id="address" placeholder="Address" aria-label="Charity Address"/>    </div>
                     </div>
                      <div class="row mb-3">
-                        <label class="mb-2" for="phone">Phone</label>
-                        <div class="col-sm-9"><input type="text" class="form-control"  id="phone" placeholder="Phone" aria-label="Phone Number"/></div>
+                        <label class="mb-2" for="phone">Charity Phone</label>
+                        <div class="col-sm-9"><input type="text" class="form-control"  id="phone" placeholder="Phone" aria-label="Phone Number"/>    </div>
                     </div>
                     
                     <div class="row mb-3">
-                        <label class="mb-2" for="password" >Password</label>
+                        <label class="mb-2" for="password">Password</label>
                         <div class="col-sm-9"><input type="password" class="form-control" id="password" placeholder="************"></div>
                     </div>
                     <div class="row mb-3">
@@ -39,7 +39,7 @@
 
 <script>
     export default{
-        name:"CompanyRegister"
+        name:"CharityRegister"
     }
 </script>
 <style scoped>
