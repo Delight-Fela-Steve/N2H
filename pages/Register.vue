@@ -2,9 +2,9 @@
     <div>
         <div class="choice-container">
             <div class="choices">
-                <button @click="onClick" class="charity">Charity</button>
-                <button class="user">Individual</button>
-                <button class="company">Company</button>
+                <button @click="onClick('charity')" class="charity">Charity</button>
+                <button @click="onClick('user')" class="user">Individual</button>
+                <button @click="onClick('company')" class="company">Company</button>
             </div>    
         </div>
         <template v-if="individual"><UserRegister /></template>
@@ -28,8 +28,8 @@ export default {
         }
     },
     methods:{
-        onClick(){
-            console.log('clicked')
+        onClick(name){
+            console.log(`clicked ${name}`)
         }
     },
 
