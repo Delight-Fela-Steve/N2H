@@ -1,15 +1,12 @@
 <template>
   <div>
-    <Home />
+    <h1>Homepage</h1>
   </div>
 </template>
 
 <script>
-import Home from './Home'
+
 export default {
-  components:{
-    Home
-  },
   name: 'IndexPage'
 }
 </script>
