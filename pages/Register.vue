@@ -2,9 +2,9 @@
     <div>
         <div class="choice-container">
             <div class="choices">
-                <button @click="onClick('charity')" class="charity">Charity</button>
-                <button @click="onClick('user')" class="user">Individual</button>
-                <button @click="onClick('company')" class="company">Company</button>
+                <button v-if="hide" @click="onClick('charity')" class="charity">Charity</button>
+                <button v-if="hide" @click="onClick('user')" class="user">Individual</button>
+                <button v-if="hide" @click="onClick('company')" class="company">Company</button>
             </div>    
         </div>
         <template v-if="individual"><UserRegister /></template>
@@ -24,12 +24,21 @@ export default {
         "individual":false,
         "charity":false,
         "company":false,
-        "hide":false
+        "hide":true
         }
     },
     methods:{
         onClick(name){
-            console.log(`clicked ${name}`)
+            if (name==='charity'){
+              this.charity = true
+              this.hide = false
+            }else if(name==='user'){
+              this.individual = true
+              this.hide = false
+            }else if(name==='company'){
+              this.company = true
+              this.hide = false
+            }
         }
     },
 

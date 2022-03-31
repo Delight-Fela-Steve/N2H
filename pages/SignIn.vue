@@ -6,11 +6,14 @@
                 <form action="">
                     <div class="row mb-3">
                         <label class="mb-2" for="email" >Email</label>
-                        <div class="col-sm-9"><input type="email" class="form-control" id="email" placeholder="johndoe@example.com"></div>
+                        <div class="col-sm-9"><input type="email" class="form-control" id="email" placeholder="johndoe@example.com" v-model="email"></div>
                     </div>
                     <div class="row mb-3">
                         <label class="mb-2" for="password" >Password</label>
-                        <div class="col-sm-9"><input type="password" class="form-control" id="password" placeholder="************"></div>
+                        <div class="col-sm-9"><input type="password" class="form-control" id="password" placeholder="************" v-model="password"></div>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-dark" type="submit" @click.prevent="login">Sign-In</button>
                     </div>
                 </form>
             </div>
@@ -40,4 +43,29 @@
 .form-control:hover{
       box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }
+
+.btn:hover{
+    color: #e25bee;
+}
 </style>
+
+<script>
+export default {
+
+    data(){
+        return{
+            email:"",
+            password:""
+        }
+    },
+    methods:{
+        login(){
+            const user={
+                email:this.email,
+                password:this.password
+            }
+            this.$store.dispatch('signInAction',user)
+        }
+    }
+}
+</script>
