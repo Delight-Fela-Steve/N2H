@@ -22,7 +22,7 @@ var config = {
     },
     actions:{
         signUpAction({commit},payload){
-            this.$fire.auth().createUserWithEmailAndPassword(payload.email, payload.password)
+            this.$fire.auth.createUserWithEmailAndPassword(payload.email, payload.password)
             .then((response) => {
               alert('success')
               console.log(response)
@@ -44,11 +44,12 @@ var config = {
             })
         },
         signOutAction({commit}){
-            firebase.auth().signOut()
+            this.$fire.auth.signOut()
             .then((response) => {
               commit('setUser', null)
               commit('setStatus', 'success')
               commit('setError', null)
+              console.log(response)
             })
             .catch((error) => {
               commit('setStatus', 'failure')
