@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <img src="" alt="">
+        <img :src="product.image" :alt="'image of '+product.name">
         <div class="card-body">
             <h5 class="card-title">{{product.name}}</h5>
             <p class="card-text">{{product.description}}</p>
@@ -35,4 +35,5 @@ a{
     color: #607ba5;
     text-decoration: none;
 }
+
 </style>

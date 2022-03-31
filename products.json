@@ -1,23 +1,23 @@
 [
     {
         "id":"1",
-        "name":"Rice",
+        "name":"Tomato Paste",
         "price":"3000",
         "quantity":"400",
-        "expiry date":"10-04-2025",
+        "expiry_date":"10-04-2025",
         "description":"Any suitable description about the product",
-        "image":"https://example.com/some-image.jpg",
+        "image":"https://bctrades.io/wp-content/uploads/2020/04/tasty-tom-2.2kg.jpg",
         "company":"A good reputable company name"
 
     },
     {
         "id":"2",
-        "name":"Rice",
+        "name":"Sardine",
         "price":"3000",
         "quantity":"400",
-        "expiry date":"10-04-2025",
+        "expiry_date":"10-04-2025",
         "description":"Any suitable description about the product",
-        "image":"https://example.com/some-image.jpg",
+        "image":"https://sc04.alicdn.com/kf/Uec2319d55fc744578952dc8616e4516al.jpg",
         "company":"A good reputable company name"
 
     },
@@ -26,7 +26,7 @@
         "name":"Rice",
         "price":"3000",
         "quantity":"400",
-        "expiry date":"10-04-2025",
+        "expiry_date":"10-04-2025",
         "description":"Any suitable description about the product",
         "image":"https://example.com/some-image.jpg",
         "company":"A good reputable company name"
@@ -37,7 +37,7 @@
         "name":"Rice",
         "price":"3000",
         "quantity":"400",
-        "expiry date":"10-04-2025",
+        "expiry_date":"10-04-2025",
         "description":"Any suitable description about the product",
         "image":"https://example.com/some-image.jpg",
         "company":"A good reputable company name"
@@ -48,7 +48,7 @@
         "name":"Rice",
         "price":"3000",
         "quantity":"400",
-        "expiry date":"10-04-2025",
+        "expiry_date":"10-04-2025",
         "description":"Any suitable description about the product",
         "image":"https://example.com/some-image.jpg",
         "company":"A good reputable company name"
@@ -59,7 +59,7 @@
         "name":"Rice",
         "price":"3000",
         "quantity":"400",
-        "expiry date":"10-04-2025",
+        "expiry_date":"10-04-2025",
         "description":"Any suitable description about the product",
         "image":"https://example.com/some-image.jpg",
         "company":"A good reputable company name"
@@ -70,7 +70,7 @@
         "name":"Rice",
         "price":"3000",
         "quantity":"400",
-        "expiry date":"10-04-2025",
+        "expiry_date":"10-04-2025",
         "description":"Any suitable description about the product",
         "image":"https://example.com/some-image.jpg",
         "company":"A good reputable company name"
@@ -81,7 +81,7 @@
         "name":"Rice",
         "price":"3000",
         "quantity":"400",
-        "expiry date":"10-04-2025",
+        "expiry_date":"10-04-2025",
         "description":"Any suitable description about the product",
         "image":"https://example.com/some-image.jpg",
         "company":"A good reputable company name"
