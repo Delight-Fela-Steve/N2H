@@ -1,12 +1,12 @@
-import vuex from "vuex"
+// import vuex from "vuex"
 
-var config = {
-    state:{},
-    getters:{},
-    mutations:{},
-    actions:{}
-}
+// var config = {
+//     state:{},
+//     getters:{},
+//     mutations:{},
+//     actions:{}
+// }
 
-export default function(){
-    return new vuex.Store(config);
-}
+// export default function(){
+//     return new vuex.Store(config);
+// }

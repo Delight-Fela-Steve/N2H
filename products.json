@@ -1,0 +1,91 @@
+[
+    {
+        "id":"1",
+        "name":"Rice",
+        "price":"3000",
+        "quantity":"400",
+        "expiry date":"10-04-2025",
+        "description":"Any suitable description about the product",
+        "image":"https://example.com/some-image.jpg",
+        "company":"A good reputable company name"
+
+    },
+    {
+        "id":"2",
+        "name":"Rice",
+        "price":"3000",
+        "quantity":"400",
+        "expiry date":"10-04-2025",
+        "description":"Any suitable description about the product",
+        "image":"https://example.com/some-image.jpg",
+        "company":"A good reputable company name"
+
+    },
+    {
+        "id":"3",
+        "name":"Rice",
+        "price":"3000",
+        "quantity":"400",
+        "expiry date":"10-04-2025",
+        "description":"Any suitable description about the product",
+        "image":"https://example.com/some-image.jpg",
+        "company":"A good reputable company name"
+
+    },
+    {
+        "id":"4",
+        "name":"Rice",
+        "price":"3000",
+        "quantity":"400",
+        "expiry date":"10-04-2025",
+        "description":"Any suitable description about the product",
+        "image":"https://example.com/some-image.jpg",
+        "company":"A good reputable company name"
+
+    },
+    {
+        "id":"5",
+        "name":"Rice",
+        "price":"3000",
+        "quantity":"400",
+        "expiry date":"10-04-2025",
+        "description":"Any suitable description about the product",
+        "image":"https://example.com/some-image.jpg",
+        "company":"A good reputable company name"
+
+    },
+    {
+        "id":"6",
+        "name":"Rice",
+        "price":"3000",
+        "quantity":"400",
+        "expiry date":"10-04-2025",
+        "description":"Any suitable description about the product",
+        "image":"https://example.com/some-image.jpg",
+        "company":"A good reputable company name"
+
+    },
+    {
+        "id":"7",
+        "name":"Rice",
+        "price":"3000",
+        "quantity":"400",
+        "expiry date":"10-04-2025",
+        "description":"Any suitable description about the product",
+        "image":"https://example.com/some-image.jpg",
+        "company":"A good reputable company name"
+
+    },
+    {
+        "id":"8",
+        "name":"Rice",
+        "price":"3000",
+        "quantity":"400",
+        "expiry date":"10-04-2025",
+        "description":"Any suitable description about the product",
+        "image":"https://example.com/some-image.jpg",
+        "company":"A good reputable company name"
+
+    }
+
+]
