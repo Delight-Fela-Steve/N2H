@@ -61,10 +61,16 @@ export default {
       
   }
   #links.collapsing{
-    margin-top:0.5em;
+    margin-top:0.8em;
+  }
+  #links.show{
+    margin-top:0.8em;
+  }
+  #links.collapsing ul li a{
+    border-radius: 0;
+    margin-bottom: 0.5em
   }
   #links.show ul li a{
-      
       border-radius: 0;
       margin-bottom: 0.5em
   }

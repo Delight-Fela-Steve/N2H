@@ -5,6 +5,7 @@
             <h5 class="card-title">{{product.name}}</h5>
             <p class="card-text">{{product.description}}</p>
             <p class="card-text">Price: ${{product.price}}</p>
+            <nuxt-link :to="'/products/'+product.id">click for more...</nuxt-link>
         </div>
         <div class="d-flex card-body justify-content-between ">
             <nuxt-link to="/donate"><Button name='Donate' /></nuxt-link>
@@ -18,7 +19,7 @@ import Button from '@/components/Button'
 export default {
   name:"Card",
   props:{
-      product:Object
+      product:Object,
   },
   components:{
       Button
@@ -29,5 +30,9 @@ export default {
 .card{
     width: 18rem;
     margin: 20px 20px;
+}
+a{
+    color: #607ba5;
+    text-decoration: none;
 }
 </style>
