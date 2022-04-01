@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-5 row align-items-md-stretch">
+    <div class=" row align-items-md-center">
       <div class="col-md-6">
         <div class="h-100 p-5 rounded-3">
           <img :src="product.image" :alt="`image of ${product.name}`">

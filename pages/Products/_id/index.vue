@@ -1,5 +1,5 @@
 <template>
-    <div class="container p-5">
+    <div class="container p-3">
         <ProductDetail :product="product"/>
     </div>
 </template>

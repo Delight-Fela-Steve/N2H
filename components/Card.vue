@@ -4,7 +4,7 @@
         <div class="card-body">
             <h5 class="card-title">{{product.name}}</h5>
             <p class="card-text">{{product.description}}</p>
-            <p class="card-text">Price: ${{product.price}}</p>
+            <p class="card-text">Price: N{{product.price}}</p>
             <nuxt-link :to="'/products/'+product.id">click for more...</nuxt-link>
         </div>
         <div class="d-flex card-body justify-content-between ">
@@ -27,9 +27,17 @@ export default {
 }
 </script>
 <style scoped>
+img{
+    height: 45%;
+}
+.card-body{
+    padding: 1rem 1rem 0 1rem;
+}
 .card{
     width: 18rem;
     margin: 20px 20px;
+    height: 30rem;
+    line-height: 1;
 }
 a{
     color: #607ba5;
