@@ -52,7 +52,8 @@ export default {
           measurementId: process.env.VUE_APP_MEASUREMENT_ID
         },
         services:{
-          auth:true
+          auth:true,
+          firestore:true
         }
       }
     

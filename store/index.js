@@ -25,22 +25,25 @@ var config = {
             this.$fire.auth.createUserWithEmailAndPassword(payload.email, payload.password)
             .then((response) => {
               alert('success')
-              console.log(response)
+              commit('setUser',response.user.uid)
+              commit('setStatus','success')
+              commit('serError',null)
             })
             .catch((error) => {
-              alert('failure')
-              console.log(error)
+              commit('setStatus','failure')
+              commit('setError',error.message)
             })
         },
         signInAction({commit},payload){
             this.$fire.auth.signInWithEmailAndPassword(payload.email, payload.password)
             .then((response) => {
-              alert('success')
-              console.log(response)
+              commit('setUser',response.user.uid)
+              commit('setStatus','success')
+              commit('setError',null)
             })
             .catch((error) => {
-              alert('failure')
-              console.log(error)
+              commit('serStatus','failure')
+              commit('setError',error.message)
             })
         },
         signOutAction({commit}){
@@ -56,6 +59,13 @@ var config = {
               commit('setError', error.message)
             })
         },
+        getProductsAction({commit}){
+          this.$fire.firestore.collection('users')
+          .then((response)=>{
+            console.log(response)
+          })
+        },
+        getCharityAction({commit}){},
 
     },
     getters:{}
