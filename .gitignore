@@ -88,3 +88,13 @@ sw.*
 
 # Vim swap files
 *.swp
+
+
+# Firebase files
+.firebase*
+fireba*
+firestore*
+functions
+public/
+remoteconfig.template.json
+storage.rules

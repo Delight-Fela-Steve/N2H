@@ -3,6 +3,8 @@ import vuex from "vuex"
 var config = {
     state:{
         user:null,
+        charities:null,
+        products:null,
         status:null,
         error:null
     },
@@ -12,6 +14,12 @@ var config = {
         },
         removeUser(state){
             state.user=null
+        },
+        setProducts(state, payload){
+          state.products=payload
+        },
+        setCharities(state, payload){
+          state.charities=payload
         },
         setStatus(state, payload){
             state.status=payload
@@ -60,7 +68,7 @@ var config = {
             })
         },
         getProductsAction({commit}){
-          this.$fire.firestore.collection('users')
+          this.$fire.firestore.collection('Users').getDocs()
           .then((response)=>{
             console.log(response)
           })

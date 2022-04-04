@@ -65,6 +65,7 @@ export default {
                 password:this.password
             }
             this.$store.dispatch('signInAction',user)
+            this.$store.dispatch('getProductsAction')
         }
     }
 }
